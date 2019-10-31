@@ -1,0 +1,28 @@
+h1 {
+    font-family: Georgia serif;
+    font-size: 60px;
+    color:whitesmoke;
+}
+
+h2 {
+    font-family: Georgia sans-serif;
+    font-size: 40px;
+    color: coral;
+}
+
+p {
+    font-size: 20px;
+    font-family: Georgia serif;
+    color: whitesmoke;
+}
+
+a {
+color: whitesmoke;
+}
+
+a:hover {
+color: coral;
+}
+html {
+background-color: #8fc2c7;
+}
