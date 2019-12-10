@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" class="clubhome">
+
+<link href="https://fonts.googleapis.com/css?family=Quattrocento&display=swap" rel="stylesheet">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150687739-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-150687739-1');
+
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="club.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="heading">
+        <h1>Walla Walla Volleyball Club</h1>
+        <p>The Walla Walla Volleyball club is an Elite club dedicated to the improvement and performance of all of our athletes.</p>
+    </div>
+    <nav>
+        <div class="topnav">
+            <ul>
+                <li><a href="clubhome.html">Home</a></li>
+                <li><a href="clubform.html">Forms</a></li>
+                <li><a href="clubteams.html">Teams</a></li>
+                <li><a href="clubcoaches.html">Coaches</a></li>
+                <li><a href="clubschedule.html">Tournament Schedule</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div id="main">
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <img src="images/club1.jpg" data-thumb="images/seahawks1.jpg" alt="" />
+                    ><img src="images/club2.jpg" data-thumb="images/seahawks2.jpg" alt="" title="U18 girls take on last year's national champions" />
+                    <img src="images/club3.jpg" data-thumb="images/club3.jpg" alt="" data-transition="slideInLeft" />
+                    <img src="images/club4.jpg" data-thumb="images/club4.jpg" alt="" title="#htmlcaption" />
+                </div>
+                <div id="htmlcaption" class="nivo-html-caption">
+                    Look at our girls go!!
+                </div>
+            </div>
+
+            <h2>The Walla Walla Volleyball Club!</h2>
+            <p>We are a club located in Walla Walla, Washington. Our club was established with one team in 2007. Since then, we have grown exponentially. We now have age groups ranging from U12 to U18, with 3 teams at each age group. If your daughter is wanting to play volleyball at the next level, this club is for her. Take a look at this motivational video to see what we are all about!</p>
+
+            <iframe width="560" height="315" style="align-content: center" src="https://www.youtube.com/embed/Wtgl628RPLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p><a href="https://twitter.com/NCAAVolleyball?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @NCAAVolleyball</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </p>
+
+
+        </div>
+
+
+        <div id="side">
+            <h1>Recent Events</h1>
+            <h2>Coach Sievertsen Recieves Award</h2>
+            <p>Our U18 coach, Ellie Sievertsen, recently receieved a very high honor award from the Evergreen Volleyball Association! She has been chosen as Club Coach of the Year. If you see her, make sure to congratulate her! </p>
+            <h2>U16 Black Wins Power League</h2>
+            <p>This last weekend, our highest U16 team made it to the Gold Bracket in the Spokane Power league, and took home first place! This is a huge step forward for all the girls on this team. Congratulations!</p>
+
+
+        </div>
+
+    </section>
+
+    <script type=" text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+</body>
+
+</html>

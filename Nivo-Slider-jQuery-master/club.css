@@ -1,0 +1,145 @@
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+.topnav li {
+    display: inline;
+}
+
+
+/* Style the topnav links */
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#main {
+    width: 68%;
+    float: right;
+    background-color: #809fff;
+    padding: 1%;
+}
+
+#main h1 {
+    font-size: 35px;
+}
+
+#main p {
+    font-size: 20px;
+}
+
+#side {
+    width: 30%;
+    float: left;
+    background-color: lightgray;
+    text-align: center;
+}
+
+section {
+    background-color: lightgray;
+    overflow: auto;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .topnav a {
+        display: block;
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .topnav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    #main,
+    #side {
+        float: none;
+        width: 100%;
+    }
+
+
+}
+
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body h1,
+p {
+    text-align: center;
+}
+
+.clubhome,
+.clubform section h1,
+h2 {
+    text-align: center;
+}
+
+.clubhome iframe {
+    align-content: center;
+}
+
+#side h1 {
+    font-size: 40px;
+}
+
+.clubhome section p {
+    text-align: left;
+}
+
+#side h1 {
+    font-size: 40px;
+}
+
+iframe {
+    align-content: center;
+}
+
+#heading {
+    font-family: 'Quattrocento', serif;
+}
+
+thead {
+    font-size: 150%;
+    background-color: black;
+    color: white;
+}
+
+.coach {
+    float: left;
+    width: 10%;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
